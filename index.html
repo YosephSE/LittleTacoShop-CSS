@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="YosephSE" />
+    <title>The Little Taco Shop</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header__h1">Little Taco Shop</h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="hours.html">Hours</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <figure>
+        <img
+          src="img/tacos_and_drink_1000x667.png"
+          alt="Tacos and a Drink"
+          title="tacos"
+          width="1000"
+          height="667"
+        />
+      </figure>
+    </section>
+
+    <main class="main">
+      <article id="menu" class="main__article menu">
+        <h2 class="menu__h2">Our Menu</h2>
+        <table class="menu__container">
+          <caption class="offscreen">
+            Our Tacos
+          </caption>
+          <thead>
+            <tr>
+              <th class="menu__header" scope="col">Tacos</th>
+              <th class="menu__header" scope="col">Quantity</th>
+              <th class="menu__header" scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="menu__item menu__cr" scope="row" rowspan="3">
+                Crunchy
+              </th>
+              <td class="menu__item">1</td>
+              <td class="menu__item">150ETB</td>
+            </tr>
+            <tr>
+              <td class="menu__item">2</td>
+              <td class="menu__item">250ETB</td>
+            </tr>
+            <tr>
+              <td class="menu__item">3</td>
+              <td class="menu__item">325ETB</td>
+            </tr>
+            <tr>
+              <th class="menu__item menu__sf" scope="row" rowspan="3">Soft</th>
+              <td class="menu__item">1</td>
+              <td class="menu__item">200ETB</td>
+            </tr>
+            <tr>
+              <td class="menu__item">2</td>
+              <td class="menu__item">350ETB</td>
+            </tr>
+            <tr>
+              <td class="menu__item">3</td>
+              <td class="menu__item">450ETB</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td class="menu__item menu__cs" colspan="3">
+                Chips &amp; Salsa 200ETB
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+    </main>
+    <hr />
+    <div id="back"><a href="#"><img src="img/up.png" alt="Back to top"></a></div>
+    <footer class="footer">
+      <p>
+        <span class="nowrap">Copyright &copy;2024</span>
+        <span class="nowrap">Little Taco Shogp</span>
+      </p>
+    </footer>
+  </body>
+</html>
